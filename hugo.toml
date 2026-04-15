@@ -1,0 +1,6 @@
+baseURL = 'http://localhost/'
+languageCode = 'en-gb'
+title = 'Will King Digital'
+
+[params]
+description = 'Writing about SEO, analytics, and all things digital'
