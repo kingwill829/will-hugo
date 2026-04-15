@@ -1,7 +1,7 @@
 ---
 title: "Migrating to Hugo"
 date: 2026-04-10T23:45:04+01:00
-draft: false
+draft: true
 excerpt: "the post excerpt"
 ---
 
