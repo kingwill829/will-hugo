@@ -3,8 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  <title>{{ if .Params.seoTitle }}{{ .Params.seoTitle }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  <!-- Meta description -->
+  {{ with .Params.description }}
+    <meta name="description" content="{{ . }}">
+  {{ end }}  
   <link rel="stylesheet" href="/css/style.css">
+
+  <link rel="canonical" href="{{ .Permalink }}">
 </head>
 <body>
   <div class="site-wrapper">

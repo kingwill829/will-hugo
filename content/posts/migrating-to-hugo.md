@@ -2,7 +2,10 @@
 title: "Migrating to Hugo"
 date: 2026-04-10T23:45:04+01:00
 draft: false
-excerpt: "the post excerpt"
+excerpt: "Migrating this site from next.js + Sanity to Hugo"
+description: "This is the meta description shown in search results."
+seoTitle: "custom title tag"
+
 ---
 
 Until very recently this website was built on next.js and the CMS Sanity. I built the website myself a few years ago (poorly) with the help of YouTube videos Stack Overflow. I only took this approach because headless was a shiny new thing.
