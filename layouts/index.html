@@ -7,7 +7,7 @@
   <ul class="post-list">
     {{ range (where .Site.RegularPages "Section" "posts") }}
       <li class="post-list-item">
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
         <div class="post-meta">{{ .Date.Format "2 January 2006" }}</div>
         <p class="post-summary">{{ with .Params.excerpt }}{{ . }}{{ else }}{{ .Summary }}{{ end }}</p>
 
